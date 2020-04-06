@@ -1,5 +1,3 @@
-package rmi_calc_interface;
-
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 

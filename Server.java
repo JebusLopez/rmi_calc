@@ -1,11 +1,8 @@
-package rmi_calc_server;
-
 import java.net.InetAddress;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
-import rmi_calc_interface.Interface;
 
 public class Server extends UnicastRemoteObject implements Interface{
      private final int PUERTO = 5000;

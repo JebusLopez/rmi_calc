@@ -1,12 +1,9 @@
-package rmi_calc_client;
-
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.text.DecimalFormat;
 import java.util.Scanner;
-import rmi_calc_interface.Interface;
 
 
 public class Client {
